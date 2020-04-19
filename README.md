@@ -25,15 +25,15 @@ My pipeline consisted of following steps.
 
 * Convert the images to grayscale.
 
- ![alt text][image1]
+  ![alt text][image1]
  
 * Apply Gaussian Blur to smoothen edges
 
- ![alt text][image2]
+  ![alt text][image2]
  
 * Apply Canny Edge Detection 
 
- ![alt text][image3]
+  ![alt text][image3]
  
 * Apply Region Of Interest and discard all other lines outside the region
 
@@ -83,7 +83,7 @@ Compared to pipeline for individual images, there is an algorithm for video in d
   --If there is no lane was found, the slope and intercept of the previous image/frame will be used.
   
 
-![alt text][image7]
+  ![alt text][image7]
 
 
 
@@ -95,7 +95,7 @@ Instead of using grayscale, the HSV was being
     Apply Gaussian Blur to smoothen edges
     ...The following steps are the same as in the pipeline above.
 
-![alt text][image8]
+  ![alt text][image8]
 
 
 
